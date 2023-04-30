@@ -1,5 +1,11 @@
-# About Toolbox
+## About Toolbox
+Toolbox is an open source python project developed as a simple terminal alternative.
 
+## Installation
+1: You must have python installed
+Download at https://www.python.org/downloads/
+2: You must have toolbox installed
+Download at https://www.toolbox.com/downloads/
 ## Keywords
 The following keywords are used in the Toolbox commands:
 
@@ -8,6 +14,8 @@ The following keywords are used in the Toolbox commands:
 ```to```: used to specify the destination directory for a file move command
 
 ```move```: used to move files from one directory to another
+
+```end```: quits the toolbox program
 
 ## Commands
 ### Calculator
