@@ -30,7 +30,7 @@ conversions = {
     "floz to ml": (floz_to_ml, "Fluid ounces: ", "Milliliters"), "ml to floz": (ml_to_floz, "Milliliters: ", "Fluid ounces"),
 }
 def weather():
-    locations = json.loads(requests.get("https://raw.githubusercontent.com/keanscripts/Toolbox/main/Locations").text)
+    locations = json.loads(requests.get("https://raw.githubusercontent.com/keanscripts/Toolbox/main/Toolbox/locations.json").text)
     city = input("Select a location: ").lower()
     lat, lon = locations[city]["lat"], locations[city]["lon"]
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=6a303cdc50428b6f68a130943e1297c6"
