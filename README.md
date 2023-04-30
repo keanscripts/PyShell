@@ -36,10 +36,10 @@ file move [file name] in [source directory] to [destination directory]
 
 ### Conversions
 You can use Toolbox for conversions. Type in the unit you want to convert from, followed by ```to``` and the unit you want to convert to. There are over 20 different conversions available, ranging from weight to temperature.
-Example:
 
-[input] Toolbox: in to cm
-[input] Inches: 17.5
+Example:
+in to cm
+Inches: 17.5
 Result: 44.45 cm
 
 ### Weather
