@@ -2,10 +2,19 @@
 Toolbox is an open source python project developed as a simple terminal alternative.
 
 ## Installation
+
 1: You must have python installed
+
 Download at https://www.python.org/downloads/
-2: You must have toolbox installed
+
+2: You must have toolbox downloaded
+
 Download at https://www.toolbox.com/downloads/
+
+3: To start toolbox, run this command in your terminal
+
+python3 t.py
+
 ## Keywords
 The following keywords are used in the Toolbox commands:
 
