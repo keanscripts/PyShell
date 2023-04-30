@@ -15,6 +15,10 @@ Download at https://www.toolbox.com/downloads/
 
 ```python3 t.py```
 
+4: To end toolbox, run this command in your terminal
+
+```end```
+
 ## Keywords
 The following keywords are used in the Toolbox commands:
 
