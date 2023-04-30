@@ -13,7 +13,7 @@ Download at https://www.toolbox.com/downloads/
 
 3: To start toolbox, run this command in your terminal
 
-python3 t.py
+```python3 t.py```
 
 ## Keywords
 The following keywords are used in the Toolbox commands:
