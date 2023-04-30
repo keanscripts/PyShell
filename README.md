@@ -11,7 +11,8 @@ The following keywords are used in the Toolbox commands:
 
 ## Commands
 ### Calculator
-The ```Calculator``` command is not a valid command in Toolbox, but it can be used to perform arithmetic operations. Simply type an expression, and Toolbox will evaluate it and return the result. For example:
+The ```Calculator``` command is not a valid command in Toolbox, but it can be used to perform arithmetic operations. Simply type an expression, and Toolbox will evaluate it and return the result. 
+For example:
 32.1 + 81 /2 * 2
 Result: 113.1
 
@@ -26,9 +27,12 @@ The ```dir``` command is used to manage directories. The following subcommands a
 The ```file``` command is used to manage files. The following subcommands are available:
 
 ```delete```: deletes a file in a given accessible directory. Use the following syntax: 
+
 file delete [file name] in [source directory]
 
 ```move```: moves a file from a given source directory to a destination directory. Use the following syntax:
+
+file move [file name] in [source directory] to [destination directory]
 
 ### Conversions
 You can use Toolbox for conversions. Type in the unit you want to convert from, followed by ```to``` and the unit you want to convert to. There are over 20 different conversions available, ranging from weight to temperature.
