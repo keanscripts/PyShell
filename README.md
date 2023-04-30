@@ -36,10 +36,6 @@ file move [file name] in [source directory] to [destination directory]
 
 ### Conversions
 You can use Toolbox for conversions. Type in the unit you want to convert from, followed by ```to``` and the unit you want to convert to. There are over 20 different conversions available, ranging from weight to temperature.
-Example:
-in to cm
-Inches: 17.5
-Result: 44.45 cm
 
 ### Weather
 You can use the ```weather``` command to get a detailed view of your current weather. Simply type in your city and get the latest weather data.
