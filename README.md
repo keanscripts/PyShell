@@ -30,6 +30,10 @@ The following keywords are used in the PyShell commands:
 
 ```move```: used to move files from one directory to another
 
+```y```: used to confirm important things
+
+```n```: used to decline important things
+
 ```end```: quits the  program
 
 ## Commands
@@ -49,15 +53,21 @@ dir access
 
 dir create [directory name]
 
-```del```: deletes a directory
+```del```: deletes a directory (dangerous)
 
 dir del [existing directory]
 
 ### File
 The ```file``` command is used to manage files. The following subcommands are available:
 
-```delete```: deletes a file in a given accessible directory. Syntax: 
+```del```: deletes a file. It searches user created files in your system. Syntax: 
 
-file delete [file name] in [source directory]
+file del [file name]
 
+```dupe```: duplicates a file. It searches user created files in your system. Syntax: 
 
+file dupe [file name]
+
+```properties```: gives you information about a file. It searches user created files in your system. Syntax: 
+
+file properties [file name]
