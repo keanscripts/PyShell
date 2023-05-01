@@ -41,13 +41,13 @@ The following keywords are used in the PyShell commands:
 ### Directory
 The ```dir``` command is used to manage directories. The following subcommands are available:
 
-```list```: lists all available directories. Syntax:
+```list```: lists all available directories.
 
-dir list
+ Syntax: dir list
 
 ```access```: requests access to all directories. Syntax:
 
-dir access
+ Syntax: dir access
 
 ```create```: requests access to all directories. Syntax:
 
@@ -55,19 +55,19 @@ dir create [directory name]
 
 ```del```: deletes a directory (dangerous)
 
-dir del [existing directory]
+ Syntax: dir del [existing directory]
 
 ### File
 The ```file``` command is used to manage files. The following subcommands are available:
 
-```del```: deletes a file. It searches user created files in your system. Syntax: 
+```del```: deletes a file. It searches user created files in your system.
 
-file del [file name]
+ Syntax: file del [file name]
 
-```dupe```: duplicates a file. It searches user created files in your system. Syntax: 
+```dupe```: duplicates a file. It searches user created files in your system.
 
-file dupe [file name]
+ Syntax: file dupe [file name]
 
-```properties```: gives you information about a file. It searches user created files in your system. Syntax: 
+```properties```: gives you information about a file. It searches user created files in your system.
 
-file properties [file name]
+ Syntax: file properties [file name]
