@@ -5,7 +5,7 @@ PyShell is an open source python project developed as a simple terminal alternat
 
 1: You must have python installed
 
-Download at https://www.python.org/downloads/
+Download at https://github.com/keanscripts/PyShell/blob/main/Download/pyshell.zip
 
 2: You must have PyShell downloaded
 
