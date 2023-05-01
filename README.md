@@ -9,7 +9,7 @@ Download at https://www.python.org/downloads/
 
 2: You must have PyShell downloaded
 
-Download at https://github.com/keanscripts/PyShell/blob/main/Download/pyshell.zip
+Download at https://github.com/keanscripts/PyShell/blob/main/Download/shell.py.zip
 
 ## Starting PyShell
 
