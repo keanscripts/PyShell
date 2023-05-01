@@ -13,7 +13,7 @@ Download at https://www.pyshell.com/downloads/
 
 ## Starting PyShell
 
-1: To start PyShell, run this command in your terminal
+1: To start PyShell, run this command in your terminal/console
 
 ```python3 t.py```
 
