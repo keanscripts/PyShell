@@ -1,5 +1,5 @@
-## About Toolbox
-Toolbox is an open source python project developed as a simple terminal alternative.
+## About PyShell
+PyShell is an open source python project developed as a simple terminal alternative.
 
 ## Installation
 
@@ -7,20 +7,22 @@ Toolbox is an open source python project developed as a simple terminal alternat
 
 Download at https://www.python.org/downloads/
 
-2: You must have toolbox downloaded
+2: You must have PyShell downloaded
 
-Download at https://www.toolbox.com/downloads/
+Download at https://www.pyshell.com/downloads/
 
-3: To start toolbox, run this command in your terminal
+## Starting PyShell
+
+3: To start PyShell, run this command in your terminal
 
 ```python3 t.py```
 
-4: To end toolbox, run this command in your terminal
+4: To end PyShell, run this command in PyShell
 
 ```end```
 
 ## Keywords
-The following keywords are used in the Toolbox commands:
+The following keywords are used in the PyShell commands:
 
 ```in```: used to specify the directory in which a command should be executed
 
@@ -28,36 +30,34 @@ The following keywords are used in the Toolbox commands:
 
 ```move```: used to move files from one directory to another
 
-```end```: quits the toolbox program
+```end```: quits the  program
 
 ## Commands
-### Calculator
-The ```Calculator``` command is not a valid command in Toolbox, but it can be used to perform arithmetic operations. Simply type an expression, and Toolbox will evaluate it and return the result. 
-For example:
-32.1 + 81 /2 * 2
-Result: 113.1
 
 ### Directory
 The ```dir``` command is used to manage directories. The following subcommands are available:
 
-```list```: lists all available directories
+```list```: lists all available directories. Syntax:
 
-```access```: requests access to all directories
+dir list
+
+```access```: requests access to all directories. Syntax:
+
+dir access
+
+```create```: requests access to all directories. Syntax:
+
+dir create [directory name]
+
+```del```: deletes a directory
+
+dir del [existing directory]
 
 ### File
 The ```file``` command is used to manage files. The following subcommands are available:
 
-```delete```: deletes a file in a given accessible directory. Use the following syntax: 
+```delete```: deletes a file in a given accessible directory. Syntax: 
 
 file delete [file name] in [source directory]
 
-```move```: moves a file from a given source directory to a destination directory. Use the following syntax:
-
-file move [file name] in [source directory] to [destination directory]
-
-### Conversions
-You can use Toolbox for conversions. Type in the unit you want to convert from, followed by ```to``` and the unit you want to convert to. There are over 20 different conversions available, ranging from weight to temperature.
-
-### Weather
-You can use the ```weather``` command to get a detailed view of your current weather. Simply use the command, type in your city and get the latest weather data.
 
