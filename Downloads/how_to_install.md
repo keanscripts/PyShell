@@ -3,4 +3,4 @@
 
 Download: https://github.com/keanscripts/PyShell/blob/main/Downloads/pyshell
 
-Run: chmod +x shell
+Run: ```chmod +x shell```
